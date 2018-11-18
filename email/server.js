@@ -6,14 +6,14 @@
     service: 'gmail',
     //auth is user's email and passowrd
     auth:{
-    user :"jrajni6@gmail.com",
-    pass :"r@jni@123"
+    user :"",
+    pass :""
     }
 });
     //mailoptions is a variable that contain objects like sender's email,reciver's email,subject and text
     var mailoptions = {
-    from :"jrajni6@gmail.com",
-    to:"chaitanya.coolboy4@gmail.com",
+    from :"",
+    to:"",
     subject:"sending email using node.js",
     text:"finally got it"
 };
