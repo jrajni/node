@@ -6,7 +6,7 @@ var argv = require("yargs").argv;
 
 //api_key is a variable which store the api key
 //api used from https://openweathermap.org
-var api_key = "ad0b1d9d136a39f5ac7e65a38450b746";
+var api_key = "";
 
 //city is a variable which store the user input and if user input is wrong then bydefault india will be consider 
 var city = argv.cityname || "india";
