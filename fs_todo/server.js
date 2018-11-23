@@ -9,10 +9,12 @@ axios.get(url)
 //.then method is used to get response 
 .then((response)=>{
 //todo api data is written in textfile using fs module with writeFile method
-    fs.writeFile("input.text",JSON.stringify(response.data,null,2),(err)=>{
+fs.writeFile("input.text",JSON.stringify(response.data,null,2),(err)=>{
 //if there is error then throw        
-        if (err) throw err;
+if (err) throw err;
 //print error
         console.log("file created");
     }) 
 })
+catch(error)
+console.log("saved");
