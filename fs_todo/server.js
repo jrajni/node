@@ -16,5 +16,5 @@ if (err) throw err;
         console.log("file created");
     }) 
 })
-catch(error)
-console.log("saved");
+catch((error)=>{
+console.log("saved");})
